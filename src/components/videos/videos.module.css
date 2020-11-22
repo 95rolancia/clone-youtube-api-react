@@ -1,0 +1,14 @@
+li {
+  list-style: none;
+}
+
+.videos {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 2em;
+  /* align-content: stretch; */
+}
+
+.video {
+  margin: 1em;
+}

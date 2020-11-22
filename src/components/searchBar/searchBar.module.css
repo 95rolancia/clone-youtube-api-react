@@ -1,0 +1,21 @@
+.search {
+  display: flex;
+}
+
+.search__input {
+  width: 87%;
+  font-size: 1rem;
+  padding: 0.5em 0.3em;
+  border: 1px solid #cccccc;
+}
+
+.search__button {
+  font-size: 1.2rem;
+  width: 3.5em;
+  border: 1px solid #cccccc;
+  background-color: #f9f9f9;
+}
+
+.search__icon {
+  color: #4f4f4f;
+}
