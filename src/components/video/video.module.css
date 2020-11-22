@@ -1,0 +1,29 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  width: 16em;
+  margin: 1em;
+  padding: 0.3em;
+  transition: all 200ms ease-in;
+  box-shadow: 5px 5px 15px -2px #000000;
+}
+
+.video:hover {
+  transform: scale(1.02);
+}
+
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.title,
+.channel {
+  margin: 0.3em 0em;
+  width: 100%;
+}
+
+.channel {
+  font-size: 0.92rem;
+  color: #707070;
+}

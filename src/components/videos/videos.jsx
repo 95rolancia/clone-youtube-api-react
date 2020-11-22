@@ -1,4 +1,3 @@
-import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from "react";
 import Video from "../video/video";
 import styles from "./videos.module.css";
