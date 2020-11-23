@@ -11,7 +11,11 @@ import {
   faBell,
 } from "@fortawesome/free-solid-svg-icons";
 
-const Header = (props) => {
+const Header = ({ onSearch }) => {
+  const handleSearch = (keyword) => {
+    onSearch(keyword);
+  };
+
   return (
     <>
       <header className={styles.header}>
@@ -22,7 +26,7 @@ const Header = (props) => {
           <Logo />
         </div>
         <div className={styles.header__search}>
-          <SearchBar />
+          <SearchBar onSearch={handleSearch} />
         </div>
         <ul className={styles.header__btns}>
           <button className={styles.button1}>
