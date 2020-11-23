@@ -5,10 +5,10 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 const Logo = (props) => {
   return (
-    <a href="#" className={styles.logo}>
+    <div className={styles.logo}>
       <FontAwesomeIcon className={styles.icon} icon={faYoutube} />
       <span className={styles.title}>Youtube</span>
-    </a>
+    </div>
   );
 };
 
