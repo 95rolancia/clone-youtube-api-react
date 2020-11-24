@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./header.module.css";
 import Logo from "../logo/logo";
-import SearchBar from "../searchBar/searchBar";
+import SearchBar from "../search_bar/search_bar";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

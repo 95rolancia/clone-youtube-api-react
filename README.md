@@ -1,4 +1,4 @@
-# react-basic-youtube
+# clone-youtube-api-react
 
 ## 설명
 
