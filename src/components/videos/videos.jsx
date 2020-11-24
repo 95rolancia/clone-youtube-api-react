@@ -1,11 +1,11 @@
 import React from "react";
 import Video from "../video/video";
 import styles from "./videos.module.css";
-const Videos = (props) => {
+const Videos = ({ videos, onVideoClick }) => {
   return (
     <ul className={styles.videos}>
-      {props.videos.map((video) => (
-        <Video video={video} />
+      {videos.map((video) => (
+        <Video key={video.id} video={video} onVideoClick={onVideoClick} />
       ))}
     </ul>
   );
